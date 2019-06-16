@@ -26,7 +26,9 @@ header{
 	height: 80px;
 	padding: 10px 10px;
 }
-
+.headerItem:hover{
+	background-color: cadetblue;
+}
 .headerItemSecond,
 .headerItemThird,
 .headerItemFours,
@@ -105,4 +107,62 @@ header{
 	height: 80px;
 	align-items: center;
 	padding: 0 30px 0 30px;
-} 
+}
+.rendezvous{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 30px;
+}
+.rendezvousOne{
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+.rendezvousThree{
+	width: 60%;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	
+}
+.rendezvousThreeItem{
+	display: flex;
+	justify-content: space-between;
+}
+.rendezvous p{
+	color: darkgray;
+}
+.rendezvousOne p{
+	color: aliceblue;
+}
+.approach{
+	display: flex;
+	padding: 10px 30px;
+}
+.approachOne, .approachTwo{
+	width: 50%;
+	background: rgba(104, 132, 195);
+	margin: 0 5px;
+	padding: 0 10px;
+}
+.table{
+	display: flex;
+	flex-direction: column;
+}
+.tr{
+	display: flex;
+}
+.td{
+	width: 98px;
+	background-color: cadetblue;
+	margin: 2px;
+}
+.footerFirst{
+	height: 40px;
+}
+.footerFirst div{
+	width: 30%;
+	background: aqua;
+	height: 100%;
+	margin-top: 5px;
+}
