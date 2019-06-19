@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK:400,700&display=swap');
 * {
 	margin: 0;
 	padding: 0;
 	color: aliceblue;
 	box-sizing: border-box;
-	font-size: 20px
+	font-size: 20px;
+	font-family: 'Noto Sans HK', sans-serif;
 }
 
 body {
@@ -59,7 +61,7 @@ header{
 
 .thirdBlock {
 	display: flex;
-	background: rgba(104, 132, 179, 1);
+	background: rgba(121,146,182,0.8);
 }
 
 .thirdBlockItem {
@@ -81,13 +83,16 @@ header{
 	display: flex;
 	justify-content: space-between;
 	padding: 0 60px;
-	height: 150px;
+	height: 110px;
 	align-items: center;
+	font-weight: bold;
 }
 .fivesBlock{
 	display: flex;
 	justify-content: space-between;
+	text-align: center;
 }
+
 .fivesBlockFirstUp,
 .fivesBlockFirstDown,
 .fivesBlockSecondUp,
@@ -95,11 +100,19 @@ header{
 	display: flex;
 	justify-content: space-between;
 	padding: 20px;
-	border: 1px solid white;
+	background: rgba(121,146,182,0.8);
+	margin: 10px;
+}
+.next{
+	line-height: 2px;
 }
 .fivesBlockFirst,
 .fivesBlockSecond{
 	width: 50%;
+}
+.fivesBlockSpan{
+	color: lightgrey;
+	font-size: 0.8em;
 }
 .schedule{
 	display: flex;
@@ -141,7 +154,7 @@ header{
 }
 .approachOne, .approachTwo{
 	width: 50%;
-	background: rgba(104, 132, 195);
+	background: rgba(121,146,182,0.8);
 	margin: 0 5px;
 	padding: 0 10px;
 }
@@ -154,7 +167,7 @@ header{
 }
 .td{
 	width: 98px;
-	background-color: cadetblue;
+	background-color: rgba(121,146,182,0.8);
 	margin: 2px;
 }
 .footerFirst{
@@ -165,4 +178,87 @@ header{
 	background: aqua;
 	height: 100%;
 	margin-top: 5px;
+}
+.allSystems{
+	padding: 30px 10px;
+	font-weight: bold;
+}
+.pressureFlex{
+	display: flex;
+}
+.pressureFlex div{
+	width: 20%;
+	background-color: rgba(121,146,182,0.8);
+	margin-right: 10px;
+	padding: 10px;
+	text-align: center;
+}
+.pressureFlex span{
+	color: aqua;
+}
+.imgSecond img{
+	width: 100%;
+}
+.computerFlex{
+	display: flex;
+	margin-top: 10px;
+}
+.computerFlex div img{
+	width: 100%;
+}
+.comunication{
+	margin-right: 10px;
+}
+.computerFlexMenu{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 10px;
+}
+.computerFlexMenu div{
+	color: aquamarine;
+}
+.computerFlexMenu div:hover{
+	cursor: grab;
+}
+.life{
+	display: flex;
+	font-weight: bold;
+	justify-content: space-between;
+	padding: 10px 20px;
+}
+.life div:hover{
+	cursor: grabbing;
+}
+.lastOne img{
+	width: 100%;
+}
+.ulFlex{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+.ulFlex li{
+	list-style: none;
+	color: aqua;
+}
+.ulFlex li:hover{
+	cursor: cell;
+}
+hr{
+	border: none; 
+	background-color: rgba(104, 152, 195, 1);
+    height: 2px; 
+	margin: 0 20px
+}
+.twoEm{
+	font-size: 2em;
+}
+.threeEm{
+	font-size: 3em;
+}
+.lightGrey{
+	color: lightgray;
+}
+.aqua{
+	color: aqua;
 }
